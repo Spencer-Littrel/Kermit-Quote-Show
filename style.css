@@ -1,0 +1,46 @@
+/* Stylesheet */
+
+/* Import Google Font */
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'Rowdies';
+  font-size: 5vmin;
+  text-align: center;
+  color: white;
+  
+  /* Add contrast to text */
+  background-color: #0f0f0f87;
+}
+
+nav {
+  margin-top: .5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.random {
+  margin: 1em;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+}
